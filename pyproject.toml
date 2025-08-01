@@ -1,0 +1,31 @@
+[project]
+name = "kiwi"
+version = "0.1.0"
+description = "Desktop text-to-speech application using Google Cloud TTS Chirp 3 HD"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "click>=8.2.1",
+    "fastapi>=0.116.1",
+    "google-cloud-texttospeech>=2.27.0",
+    "markdown>=3.8.2",
+    "python-dotenv>=1.1.1",
+    "python-frontmatter>=1.1.0",
+    "python-multipart>=0.0.20",
+    "uvicorn[standard]>=0.35.0",
+]
+
+[project.scripts]
+kiwi = "kiwi.main:main"
+
+[tool.uv]
+package = true
+
+[dependency-groups]
+dev = [
+    "mypy>=1.17.0",
+    "pytest>=8.4.1",
+    "pytest-mock>=3.14.1",
+    "ruff>=0.12.7",
+    "types-markdown>=3.8.0.20250708",
+]
