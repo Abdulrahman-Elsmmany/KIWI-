@@ -82,8 +82,8 @@ graph TB
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/kiwi-tts.git
-cd kiwi-tts
+git clone https://github.com/Abdulrahman-Elsmmany/KIWI-.git
+cd KIWI-
 
 # Install Python dependencies
 uv sync
@@ -196,14 +196,14 @@ open http://localhost:8000/docs
 
 ## 📊 Performance Metrics
 
-| Metric | Target | Achieved |
-|--------|--------|----------|
-| **API Response Time** | < 100ms | ~50ms |
-| **TTS Conversion** | < 5s | ~2-3s |
-| **GUI Cold Start** | < 2s | ~1.5s |
-| **Memory Usage (GUI)** | < 100MB | ~60MB |
-| **Memory Usage (API)** | < 50MB | ~35MB |
-| **Binary Size (Tauri)** | < 20MB | ~15MB |
+| Metric                  | Target  | Achieved |
+| ----------------------- | ------- | -------- |
+| **API Response Time**   | < 100ms | ~50ms    |
+| **TTS Conversion**      | < 5s    | ~2-3s    |
+| **GUI Cold Start**      | < 2s    | ~1.5s    |
+| **Memory Usage (GUI)**  | < 100MB | ~60MB    |
+| **Memory Usage (API)**  | < 50MB  | ~35MB    |
+| **Binary Size (Tauri)** | < 20MB  | ~15MB    |
 
 ## 🧪 Development & Testing
 
@@ -258,23 +258,23 @@ cd gui && npm run tauri dev           # Hot reload development
 Kiwi TTS supports **30 premium Chirp 3 HD voices** across multiple languages:
 
 ### English (US) - `en-US`
-| Voice | Gender | Characteristics |
-|-------|--------|----------------|
-| **Charon** | Female | Clear, professional, default |
-| **Kore** | Female | Warm, engaging, conversational |
-| **Zephyr** | Male | Dynamic, expressive, energetic |
-| **Achernar** | Male | Authoritative, confident, news-style |
-| **Pulcherrima** | Female | Elegant, refined, sophisticated |
-| **Leda** | Female | Gentle, soothing, storytelling |
-| **Aoede** | Female | Melodic, artistic, creative |
-| **Callirrhoe** | Female | Friendly, approachable, casual |
+| Voice           | Gender | Characteristics                      |
+| --------------- | ------ | ------------------------------------ |
+| **Charon**      | Female | Clear, professional, default         |
+| **Kore**        | Female | Warm, engaging, conversational       |
+| **Zephyr**      | Male   | Dynamic, expressive, energetic       |
+| **Achernar**    | Male   | Authoritative, confident, news-style |
+| **Pulcherrima** | Female | Elegant, refined, sophisticated      |
+| **Leda**        | Female | Gentle, soothing, storytelling       |
+| **Aoede**       | Female | Melodic, artistic, creative          |
+| **Callirrhoe**  | Female | Friendly, approachable, casual       |
 
 *View all 30 voices:* `uv run kiwi voices`
 
 ## 📁 Project Structure
 
 ```
-kiwi-tts/
+KIWI-/
 ├── 🐍 src/kiwi/                    # Python backend
 │   ├── main.py                     # CLI interface with Click
 │   ├── api.py                      # FastAPI REST server
@@ -331,10 +331,10 @@ export API_PORT="8000"
 
 ### Supported Input Formats
 
-| Format | Extensions | Features |
-|--------|------------|----------|
-| **Markdown** | `.md`, `.markdown` | Front matter, headers, lists, code blocks, links |
-| **Plain Text** | `.txt` | Smart whitespace handling, paragraph detection |
+| Format         | Extensions         | Features                                         |
+| -------------- | ------------------ | ------------------------------------------------ |
+| **Markdown**   | `.md`, `.markdown` | Front matter, headers, lists, code blocks, links |
+| **Plain Text** | `.txt`             | Smart whitespace handling, paragraph detection   |
 
 *Future formats:* PDF, DOCX, EPUB, HTML
 
@@ -449,10 +449,10 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ## 📞 Support & Contact
 
-- 🐛 **Bug Reports:** [GitHub Issues](https://github.com/yourusername/kiwi-tts/issues)
-- 💡 **Feature Requests:** [GitHub Discussions](https://github.com/yourusername/kiwi-tts/discussions)
-- 📖 **Documentation:** [Wiki](https://github.com/yourusername/kiwi-tts/wiki)
-- 📧 **Contact:** [Your Email](mailto:your.email@domain.com)
+- 🐛 **Bug Reports:** [GitHub Issues](https://github.com/Abdulrahman-Elsmmany/KIWI-/issues)
+- 💡 **Feature Requests:** [GitHub Discussions](https://github.com/Abdulrahman-Elsmmany/KIWI-/discussions)
+- 📖 **Documentation:** [Wiki](https://github.com/Abdulrahman-Elsmmany/KIWI-/README.md)
+
 
 ## 🙏 Acknowledgments
 
