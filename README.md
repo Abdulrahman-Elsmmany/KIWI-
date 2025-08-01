@@ -1,4 +1,4 @@
-# 🎵 Kiwi TTS - Professional Text-to-Speech Application
+# 🎵 KIWI🥝 - Professional Text-to-Speech Application
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.11+-blue.svg)](https://python.org)
@@ -8,7 +8,7 @@
 
 > **🚀 A modern, high-performance text-to-speech application showcasing enterprise-grade architecture and cutting-edge development practices.**
 
-Kiwi TTS is a comprehensive text-to-speech solution that demonstrates advanced software engineering skills through its multi-interface architecture, combining a beautiful Tauri-based desktop GUI, powerful CLI tools, and a production-ready REST API. Built with Google Cloud TTS Chirp 3 HD voices for premium audio quality.
+KIWI🥝 is a comprehensive text-to-speech solution that demonstrates advanced software engineering skills through its multi-interface architecture, combining a beautiful Tauri-based desktop GUI, powerful CLI tools, and a production-ready REST API. Built with Google Cloud TTS Chirp 3 HD voices for premium audio quality.
 
 ## ✨ Key Features & Technical Highlights
 
@@ -255,7 +255,7 @@ cd gui && npm run tauri dev           # Hot reload development
 
 ## 🎤 Voice Catalog
 
-Kiwi TTS supports **30 premium Chirp 3 HD voices** across multiple languages:
+KIWI🥝 supports **30 premium Chirp 3 HD voices** across multiple languages:
 
 ### English (US) - `en-US`
 | Voice           | Gender | Characteristics                      |
