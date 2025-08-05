@@ -1,479 +1,514 @@
-# 🎵 KIWI🥝 - Professional Text-to-Speech Application
+# 🥝 KIWI TTS
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/python-3.11+-blue.svg)](https://python.org)
-[![Tauri](https://img.shields.io/badge/tauri-2.0-orange.svg)](https://tauri.app)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-green.svg)](https://fastapi.tiangolo.com)
-[![TypeScript](https://img.shields.io/badge/typescript-5.0+-blue.svg)](https://typescriptlang.org)
+<div align="center">
 
-> **🚀 A modern, high-performance text-to-speech application showcasing enterprise-grade architecture and cutting-edge development practices.**
+![KIWI TTS](https://img.shields.io/badge/KIWI%20TTS-Transform%20Text%20to%20Speech-94C973?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiIGZpbGw9IiM5NEM5NzMiLz4KPHBhdGggZD0iTTEyIDZDOC42ODYyOSA2IDYgOC42ODYyOSA2IDEyQzYgMTUuMzEzNyA4LjY4NjI5IDE4IDEyIDE4QzE1LjMxMzcgMTggMTggMTUuMzEzNyAxOCAxMkMxOCA4LjY4NjI5IDE1LjMxMzcgNiAxMiA2WiIgZmlsbD0iIzZCOEU1NyIvPgo8L3N2Zz4=&logoColor=white)
 
-KIWI🥝 is a comprehensive text-to-speech solution that demonstrates advanced software engineering skills through its multi-interface architecture, combining a beautiful Tauri-based desktop GUI, powerful CLI tools, and a production-ready REST API. Built with Google Cloud TTS Chirp 3 HD voices for premium audio quality.
+### 🎯 **Professional Multi-Interface Text-to-Speech Application**
+*Transform text into beautiful speech with Google's premium Chirp 3 HD voices*
 
-## ✨ Key Features & Technical Highlights
+[![Version](https://img.shields.io/badge/version-1.0.0-4ECDC4?style=for-the-badge)](https://github.com/Abdulrahman-Elsmmany/kiwi)
+[![Python](https://img.shields.io/badge/python-3.11+-45B7D1?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![License](https://img.shields.io/badge/license-MIT-96CEB4?style=for-the-badge)](LICENSE)
+[![Developer](https://img.shields.io/badge/Developer-Abdulrahman%20Elsmmany-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abdulrahman-Elsmmany)
 
-### 🏗️ **Multi-Interface Architecture**
-- **🖥️ Modern Desktop GUI** - Tauri 2.0 + React + TypeScript with shadcn/ui components
-- **⚡ CLI Interface** - Full-featured command-line tool with Click framework
-- **🌐 REST API** - Production-ready FastAPI server with OpenAPI documentation
-- **🔄 HTTP-based Communication** - Eliminates subprocess overhead for optimal performance
+![Desktop](https://img.shields.io/badge/🖥️-Desktop%20GUI-FFA07A?style=for-the-badge)
+![CLI](https://img.shields.io/badge/⚡-CLI%20Tool-9370DB?style=for-the-badge)
+![API](https://img.shields.io/badge/🌐-REST%20API-FFD700?style=for-the-badge)
+![Professional](https://img.shields.io/badge/⭐-Professional%20Grade-32CD32?style=for-the-badge)
 
-### 🎯 **Enterprise-Grade Engineering**
-- **Type Safety Everywhere** - Full TypeScript coverage, Python type hints, Rust memory safety
-- **Robust Error Handling** - Comprehensive error boundaries and structured responses
-- **Performance Optimized** - HTTP keep-alive, connection pooling, lazy loading
-- **Cross-Platform** - Native support for Windows, macOS, and Linux
+</div>
 
-### 🎤 **Premium Audio Quality**
-- **30+ Chirp 3 HD Voices** - Google Cloud's latest high-definition voice models
-- **Multiple Formats** - MP3 (24kHz) and WAV (uncompressed) output
-- **Smart Text Processing** - Advanced Markdown and text parsing with front matter support
-- **Custom Output Control** - User-selectable output directories with file management
+---
 
-### 🔧 **Developer Experience**
-- **Modern Toolchain** - uv (Python), Vite (Frontend), Cargo (Rust)
-- **Hot Reload** - Real-time development for both frontend and backend
-- **Comprehensive Testing** - Unit tests, integration tests, mocked external APIs
-- **Auto-formatting** - Ruff, Black, Prettier with pre-commit hooks
+## 🖼️ Experience KIWI TTS
 
-## 🏗️ Architecture Overview
+<div align="center">
+  
+### ✨ **Beautiful Desktop Interface for Premium Text-to-Speech**
 
-```mermaid
-graph TB
-    subgraph "Frontend Layer"
-        GUI[🖥️ Tauri Desktop App<br/>React + TypeScript + shadcn/ui]
-        CLI[⚡ CLI Tool<br/>Click + Rich]
-        EXT[🔌 External Apps<br/>API Clients]
-    end
-    
-    subgraph "API Layer"
-        API[🌐 FastAPI Server<br/>Async + Pydantic]
-    end
-    
-    subgraph "Core Layer"
-        TTS[🎤 TTS Engine<br/>Google Cloud + Chirp 3 HD]
-        PARSE[📄 Document Parser<br/>Markdown + Text]
-    end
-    
-    GUI --> API
-    CLI --> API
-    EXT --> API
-    API --> TTS
-    API --> PARSE
-    
-    style GUI fill:#e1f5fe
-    style CLI fill:#f3e5f5
-    style EXT fill:#f1f8e9
-    style API fill:#fff3e0
-    style TTS fill:#fce4ec
-    style PARSE fill:#e8f5e8
+![KIWI TTS Interface](https://raw.githubusercontent.com/Abdulrahman-Elsmmany/Abdulrahman-Elsmmany/883f8af295c1f5539250b3474768b35d3fcfe1d5/assets/kiwi.png)
+
+*🎤 Professional Text-to-Speech with 30+ Premium Voices and Intuitive Interface*
+
+</div>
+
+### 🎯 **Launch Applications**
+
+```bash
+# 🖥️ Start the beautiful desktop experience
+cd gui && npm run tauri dev
+
+# ⚡ Use the powerful CLI
+uv run kiwi document.md --voice en-US-Chirp3-HD-Kore
+
+# 🌐 Launch the REST API server
+uv run kiwi server --reload
 ```
 
-## 🚀 Quick Start
+**Multi-Interface Features:**
+- 🖥️ **Modern Desktop GUI** - Beautiful Tauri app with drag-and-drop support
+- 🎤 **30+ Premium Voices** - Google Chirp 3 HD voices across 28 languages
+- 📁 **Smart File Management** - Custom output locations with OS integration
+- ⚡ **Lightning Fast** - Optimized HTTP architecture for instant response
+- 📊 **Real-time Progress** - Live conversion updates and audio preview
+- 🔄 **Format Flexibility** - MP3 (24kHz) and WAV output formats
+- 🎯 **Developer Friendly** - Full REST API with OpenAPI documentation
 
-### Prerequisites
+---
 
-- **Python 3.11+** with [uv](https://github.com/astral-sh/uv) package manager
-- **Node.js 18+** and npm (for GUI development)
-- **Rust 1.70+** (automatically managed by Tauri)
-- **Google Cloud Account** with Text-to-Speech API enabled
+## 🎯 Why KIWI TTS?
 
-### Installation
+### ✨ **Enterprise-Grade Architecture**
+- 🏗️ **Multi-tier Architecture** - Clean separation of concerns across layers
+- 🔒 **Type Safety Everywhere** - TypeScript, Python hints, Rust memory safety
+- ⚡ **Performance Optimized** - HTTP keep-alive, connection pooling, lazy loading
+- 🌍 **Cross-Platform Native** - Windows, macOS, Linux with native performance
+
+### 🚀 **Built for Professionals**
+- 📝 **Advanced Text Processing** - Markdown support with front matter parsing
+- 🎨 **Beautiful UI/UX** - Modern React + shadcn/ui components
+- 🔧 **Developer Experience** - Hot reload, comprehensive testing, clean APIs
+- 📊 **Production Ready** - Error handling, logging, monitoring capabilities
+
+---
+
+## 🚀 Quick Start Guide
+
+### 📦 Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/Abdulrahman-Elsmmany/KIWI-.git
-cd KIWI-
+git clone https://github.com/Abdulrahman-Elsmmany/kiwi.git
+cd kiwi
 
-# Install Python dependencies
+# Install Python dependencies with UV (ultrafast)
 uv sync
 
 # Install GUI dependencies
 cd gui && npm install
 ```
 
-### Google Cloud Setup
+### ⚙️ Google Cloud Configuration
 
 ```bash
-# Install Google Cloud CLI
-# Visit: https://cloud.google.com/sdk/docs/install
-
-# Authenticate with Google Cloud
+# 🔑 Authenticate with Google Cloud
 gcloud auth login
 gcloud auth application-default login
 
-# Enable Text-to-Speech API
+# 🎤 Enable Text-to-Speech API
 gcloud services enable texttospeech.googleapis.com
 
-# Set your project ID
+# 🎯 Set your project
 gcloud config set project YOUR_PROJECT_ID
 ```
 
-### Running the Application
-
-#### 🖥️ Desktop GUI (Recommended)
+### 🎯 Get Started in 30 Seconds
 
 ```bash
-# Terminal 1: Start the API server
-uv run kiwi server --reload
+# 🖥️ Launch the desktop app (recommended)
+# Terminal 1: Start API server
+uv run kiwi server
 
-# Terminal 2: Launch the desktop app
+# Terminal 2: Launch GUI
 cd gui && npm run tauri dev
+
+# ⚡ Or use CLI directly
+uv run kiwi document.md --voice en-US-Chirp3-HD-Kore
 ```
 
-#### ⚡ CLI Usage
+---
+
+## ✨ Multi-Interface Capabilities
+
+<table>
+<tr>
+<td>
+
+### 🖥️ **Desktop Application**
+- **Tauri 2.0** native performance
+- **Drag & drop** file interface
+- **Real-time progress** tracking
+- **Audio preview** with controls
+- **Custom output** directory selection
+
+</td>
+<td>
+
+### ⚡ **Command Line Interface**
+- **Simple commands** for quick conversion
+- **Batch processing** support
+- **Voice listing** and filtering
+- **Multiple formats** (MP3/WAV)
+- **Pipeline friendly** design
+
+</td>
+</tr>
+<tr>
+<td>
+
+### 🌐 **REST API Server**
+- **FastAPI** with async support
+- **OpenAPI/Swagger** documentation
+- **File upload** endpoints
+- **Streaming responses** available
+- **CORS enabled** for web apps
+
+</td>
+<td>
+
+### 🎤 **Premium Voice Quality**
+- **30+ Chirp 3 HD** voices
+- **28 languages** supported
+- **Natural intonation** and emotion
+- **24kHz MP3** or uncompressed WAV
+- **Smart text** preprocessing
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🎯 Usage Examples
+
+### 🖥️ **Desktop GUI Features**
+
+```typescript
+// Beautiful component architecture
+<FileUpload onFileSelect={handleFile} />
+<VoiceSettings language="en-US" voice={selectedVoice} />
+<ConversionProgress status={conversionStatus} />
+<AudioResult audioUrl={resultUrl} />
+```
+
+### ⚡ **CLI Commands**
 
 ```bash
-# Convert a Markdown file
-uv run kiwi examples/sample.md
+# 📄 Convert a markdown file
+uv run kiwi README.md
 
-# Use a specific voice
-uv run kiwi document.txt --voice en-US-Chirp3-HD-Kore
+# 🎤 Use a specific voice
+uv run kiwi document.txt --voice en-US-Chirp3-HD-Zephyr
 
-# Custom output location
-uv run kiwi file.md --output ~/Downloads/speech.mp3
+# 📁 Custom output location
+uv run kiwi file.md --output ~/Desktop/speech.mp3
 
-# List available voices
+# 📋 List all available voices
 uv run kiwi voices --language en-US
+
+# 🔊 Generate WAV format
+uv run kiwi text.txt --format wav
 ```
 
-#### 🌐 API Server
+### 🌐 **API Endpoints**
 
 ```bash
-# Start the production server
+# 📤 Upload and convert file
+curl -X POST "http://localhost:8000/api/convert" \
+  -F "file=@document.md" \
+  -F "voice=en-US-Chirp3-HD-Kore" \
+  -F "format=MP3"
+
+# 📋 Get available voices
+curl "http://localhost:8000/api/voices?language=en-US"
+
+# 📊 Check API health
+curl "http://localhost:8000/health"
+```
+
+---
+
+## 🏗️ Architecture & Design Patterns
+
+<div align="center">
+
+### 🎯 **Clean Architecture Implementation**
+
+```mermaid
+graph TB
+    subgraph "🖥️ Presentation Layer"
+        GUI[Desktop GUI<br/>React + TypeScript]
+        CLI[CLI Interface<br/>Click + Rich]
+        API[REST API<br/>FastAPI + OpenAPI]
+    end
+    
+    subgraph "🔧 Application Layer"
+        HANDLER[Request Handlers<br/>Validation + Orchestration]
+        SERVICE[Business Logic<br/>Text Processing + Conversion]
+    end
+    
+    subgraph "🎤 Infrastructure Layer"
+        TTS[Google TTS Client<br/>Chirp 3 HD Voices]
+        STORAGE[File Management<br/>Cross-platform I/O]
+        HTTP[HTTP Client<br/>Reqwest + Tokio]
+    end
+    
+    GUI --> HTTP
+    CLI --> SERVICE
+    API --> HANDLER
+    HTTP --> API
+    HANDLER --> SERVICE
+    SERVICE --> TTS
+    SERVICE --> STORAGE
+    
+    style GUI fill:#e3f2fd
+    style CLI fill:#f3e5f5
+    style API fill:#fff3e0
+    style HANDLER fill:#e8f5e9
+    style SERVICE fill:#fce4ec
+    style TTS fill:#e1f5fe
+```
+
+</div>
+
+---
+
+## 🎤 Premium Voice Catalog
+
+<div align="center">
+
+### 🌟 **Chirp 3 HD Voices - Crystal Clear Quality**
+
+| Language | Voices Available | Popular Choices |
+|----------|------------------|-----------------|
+| **🇺🇸 English (US)** | 8 voices | Kore (Warm), Zephyr (Dynamic), Achernar (News) |
+| **🇬🇧 English (UK)** | 4 voices | Hera (Refined), Oberon (Classic) |
+| **🇫🇷 French** | 3 voices | Sylvie (Elegant), Pierre (Professional) |
+| **🇩🇪 German** | 3 voices | Klaus (Authoritative), Emma (Friendly) |
+| **🇪🇸 Spanish** | 4 voices | Carmen (Expressive), Miguel (Clear) |
+| **🇯🇵 Japanese** | 2 voices | Yuki (Gentle), Haruto (Professional) |
+| **🇰🇷 Korean** | 2 voices | Min-ji (Warm), Jun-ho (Clear) |
+| **And 21 more languages!** | 30+ total | Run `uv run kiwi voices` for full list |
+
+</div>
+
+---
+
+## 🛠️ Advanced Development
+
+### 📁 **Professional Project Structure**
+
+```
+kiwi/
+├── 🐍 src/kiwi/              # Python Backend
+│   ├── __init__.py           # Package initialization
+│   ├── main.py               # CLI with Click framework
+│   ├── api.py                # FastAPI REST server
+│   ├── tts.py                # Google Cloud TTS client
+│   ├── parsers.py            # Text/Markdown processing
+│   └── utils.py              # Shared utilities
+│
+├── 🖥️ gui/                   # Tauri Desktop App
+│   ├── src/                  # React Frontend
+│   │   ├── App.tsx           # Main application
+│   │   ├── components/       # UI Components
+│   │   │   ├── ui/           # shadcn/ui components
+│   │   │   └── *.tsx         # Feature components
+│   │   └── lib/              # Utilities & hooks
+│   │
+│   ├── src-tauri/            # Rust Backend
+│   │   ├── src/
+│   │   │   ├── lib.rs        # Tauri commands
+│   │   │   └── main.rs       # Application entry
+│   │   └── Cargo.toml        # Rust dependencies
+│   │
+│   └── package.json          # Node dependencies
+│
+├── 🧪 tests/                 # Test Suite
+│   ├── unit/                 # Unit tests
+│   ├── integration/          # Integration tests
+│   └── fixtures/             # Test data
+│
+├── 📚 docs/                  # Documentation
+├── 🔧 pyproject.toml         # Python config
+└── 📋 PLANNING.md            # Architecture docs
+```
+
+### 🚀 **Performance & Best Practices**
+
+- **Async Everything** - Non-blocking I/O throughout the stack
+- **Connection Pooling** - Reuse HTTP connections for speed
+- **Lazy Loading** - Load resources only when needed
+- **Error Boundaries** - Graceful error handling at every level
+- **Type Safety** - Full typing in Python, TypeScript, and Rust
+- **Memory Efficiency** - Stream large files, minimize allocations
+- **Cross-platform** - Native performance on all platforms
+
+---
+
+## 🔧 Development Commands
+
+### 🧪 **Testing & Quality**
+
+```bash
+# 🐍 Python Testing
+uv run pytest                        # Run all tests
+uv run pytest --cov=kiwi            # With coverage
+uv run ruff check src/ tests/       # Lint code
+uv run mypy src/                    # Type checking
+
+# 🖥️ Frontend Testing
+cd gui && npm run test              # Run tests
+cd gui && npm run lint              # ESLint
+cd gui && npm run type-check        # TypeScript
+
+# 🦀 Rust Testing
+cd gui/src-tauri && cargo test      # Run tests
+cd gui/src-tauri && cargo clippy    # Lint
+```
+
+### 🏗️ **Building & Distribution**
+
+```bash
+# 📦 Build Python package
+uv build
+
+# 🖥️ Build desktop app
+cd gui && npm run tauri build
+
+# 🐳 Build Docker image
+docker build -t kiwi-tts .
+
+# 🚀 Production deployment
 uv run kiwi server --host 0.0.0.0 --port 8000
-
-# Access interactive API docs
-open http://localhost:8000/docs
 ```
 
-## 🎯 Technical Implementation Details
+---
 
-### Backend Architecture (Python)
+## 🗺️ Roadmap & Future Features
 
-**Core Technologies:**
-- **FastAPI** - Modern async web framework with automatic OpenAPI generation
-- **Pydantic v2** - Data validation and serialization with type safety
-- **Google Cloud TTS** - Enterprise-grade text-to-speech with Chirp 3 HD voices
-- **Click** - Composable command-line interface framework
-- **uv** - Ultra-fast Python package manager and virtual environment tool
+### 🎯 **Version 2.0** (Q2 2025)
+- ✅ Batch file processing with queue management
+- ✅ SSML support for advanced speech control
+- ✅ Audio post-processing (speed, pitch control)
+- ✅ WebSocket support for real-time streaming
 
-**Key Features:**
-- Async/await throughout for optimal I/O performance
-- Custom exception hierarchy with structured error responses
-- Automatic retry logic with exponential backoff
-- Request/response validation with comprehensive error messages
-- File upload handling with multipart form support
+### 🎯 **Version 3.0** (Q4 2025)
+- 📋 Web application version
+- 📋 Mobile apps (iOS/Android)
+- 📋 Voice cloning capabilities
+- 📋 Multi-cloud support (AWS Polly, Azure Speech)
 
-### Frontend Architecture (Tauri + React)
+### 🎯 **Version 4.0** (2026)
+- 📋 AI-powered voice selection
+- 📋 Collaborative workspaces
+- 📋 Plugin ecosystem
+- 📋 Analytics dashboard
 
-**Core Technologies:**
-- **Tauri 2.0** - Rust-based desktop application framework
-- **React 18** - Modern UI library with concurrent features
-- **TypeScript 5.0+** - Full type safety and modern language features
-- **shadcn/ui** - High-quality, accessible component library
-- **Tailwind CSS** - Utility-first CSS framework with custom design system
+---
 
-**Key Features:**
-- Component-based architecture with strict prop interfaces
-- Custom hooks for state management and side effects
-- Error boundaries for graceful error handling
-- Responsive design with mobile-first approach
-- Real-time progress updates with smooth animations
+## 🏆 Skills Demonstrated
 
-### Backend Communication (Rust)
+This project showcases expertise in:
 
-**Core Technologies:**
-- **reqwest** - HTTP client with async support and connection pooling
-- **serde** - Serialization framework with derive macros
-- **tokio** - Async runtime for high-performance I/O operations
+### **Frontend Excellence**
+- ⚛️ Modern React patterns with hooks and context
+- 📘 TypeScript for bulletproof type safety
+- 🎨 Beautiful UI with shadcn/ui components
+- 📱 Responsive design with Tailwind CSS
+- ⚡ Performance optimization techniques
 
-**Key Features:**
-- HTTP client with automatic retry and timeout handling
-- Cross-platform file system operations
-- Native folder selection dialogs for each OS
-- Graceful fallback when API server is unavailable
+### **Backend Mastery**
+- 🐍 Async Python with FastAPI
+- 🔒 Secure API design with validation
+- 📊 RESTful architecture patterns
+- 🧪 Comprehensive testing strategies
+- 📈 Performance monitoring and optimization
 
-## 📊 Performance Metrics
-
-| Metric                  | Target  | Achieved |
-| ----------------------- | ------- | -------- |
-| **API Response Time**   | < 100ms | ~50ms    |
-| **TTS Conversion**      | < 5s    | ~2-3s    |
-| **GUI Cold Start**      | < 2s    | ~1.5s    |
-| **Memory Usage (GUI)**  | < 100MB | ~60MB    |
-| **Memory Usage (API)**  | < 50MB  | ~35MB    |
-| **Binary Size (Tauri)** | < 20MB  | ~15MB    |
-
-## 🧪 Development & Testing
-
-### Code Quality Tools
-
-```bash
-# Python code quality
-uv run ruff check src/ tests/           # Linting
-uv run ruff format src/ tests/          # Formatting
-uv run mypy src/                        # Type checking
-
-# Frontend code quality
-cd gui && npm run lint                  # ESLint
-cd gui && npm run type-check           # TypeScript
-
-# Rust code quality
-cd gui/src-tauri && cargo clippy       # Linting
-cd gui/src-tauri && cargo fmt          # Formatting
-```
-
-### Testing Strategy
-
-```bash
-# Python tests (with coverage)
-uv run pytest --cov=kiwi --cov-report=html
-
-# Frontend tests
-cd gui && npm run test
-
-# Integration tests
-uv run pytest tests/integration/
-
-# API tests with live server
-uv run pytest tests/api/ --api-server
-```
-
-### Build & Distribution
-
-```bash
-# Python package
-uv build                               # Creates wheel in dist/
-
-# Desktop application
-cd gui && npm run tauri build         # Platform-specific binaries
-
-# Development builds
-cd gui && npm run tauri dev           # Hot reload development
-```
-
-## 🎤 Voice Catalog
-
-KIWI🥝 supports **30 premium Chirp 3 HD voices** across multiple languages:
-
-### English (US) - `en-US`
-| Voice           | Gender | Characteristics                      |
-| --------------- | ------ | ------------------------------------ |
-| **Charon**      | Female | Clear, professional, default         |
-| **Kore**        | Female | Warm, engaging, conversational       |
-| **Zephyr**      | Male   | Dynamic, expressive, energetic       |
-| **Achernar**    | Male   | Authoritative, confident, news-style |
-| **Pulcherrima** | Female | Elegant, refined, sophisticated      |
-| **Leda**        | Female | Gentle, soothing, storytelling       |
-| **Aoede**       | Female | Melodic, artistic, creative          |
-| **Callirrhoe**  | Female | Friendly, approachable, casual       |
-
-*View all 30 voices:* `uv run kiwi voices`
-
-## 📁 Project Structure
-
-```
-KIWI-/
-├── 🐍 src/kiwi/                    # Python backend
-│   ├── main.py                     # CLI interface with Click
-│   ├── api.py                      # FastAPI REST server
-│   ├── tts.py                      # Google Cloud TTS client
-│   ├── parsers.py                  # Document parsing (MD/TXT)
-│   └── utils.py                    # Shared utilities
-├── 🖥️ gui/                         # Tauri desktop application
-│   ├── src/                        # React frontend
-│   │   ├── App.tsx                 # Main application
-│   │   ├── components/             # Reusable UI components
-│   │   │   ├── FileUpload.tsx      # Drag-and-drop interface
-│   │   │   ├── VoiceSettings.tsx   # Voice selection
-│   │   │   ├── ConversionProgress.tsx # Real-time progress
-│   │   │   └── AudioResult.tsx     # Playback controls
-│   │   └── lib/                    # Utilities and hooks
-│   ├── src-tauri/                  # Rust backend
-│   │   ├── src/lib.rs              # HTTP client + commands
-│   │   └── Cargo.toml              # Rust dependencies
-│   └── package.json                # Node.js dependencies
-├── 🧪 tests/                       # Comprehensive test suite
-│   ├── unit/                       # Unit tests
-│   ├── integration/                # Integration tests
-│   └── fixtures/                   # Test data
-├── 📚 docs/                        # Documentation
-│   ├── API.md                      # API documentation
-│   ├── DEPLOYMENT.md               # Deployment guide
-│   └── DEVELOPMENT.md              # Development setup
-├── PLANNING.md                     # Architecture & planning
-├── TASK.md                         # Task tracking
-└── pyproject.toml                  # Python project config
-```
-
-## 🔧 Configuration
-
-### Environment Variables
-
-```bash
-# Copy example configuration
-cp .env.example .env
-
-# Authentication (choose one)
-# Option 1: Application Default Credentials (recommended)
-gcloud auth application-default login
-
-# Option 2: Service Account Key
-export GOOGLE_APPLICATION_CREDENTIALS="/path/to/service-account.json"
-
-# Optional customization
-export DEFAULT_VOICE="en-US-Chirp3-HD-Kore"
-export DEFAULT_LANGUAGE="en-US"
-export DEFAULT_AUDIO_FORMAT="MP3"
-export API_PORT="8000"
-```
-
-### Supported Input Formats
-
-| Format         | Extensions         | Features                                         |
-| -------------- | ------------------ | ------------------------------------------------ |
-| **Markdown**   | `.md`, `.markdown` | Front matter, headers, lists, code blocks, links |
-| **Plain Text** | `.txt`             | Smart whitespace handling, paragraph detection   |
-
-*Future formats:* PDF, DOCX, EPUB, HTML
-
-## 🚨 Troubleshooting
-
-<details>
-<summary><strong>🔐 Authentication Issues</strong></summary>
-
-**Error:** `Google Cloud authentication failed`
-
-**Solutions:**
-1. Verify billing is enabled: `gcloud billing accounts list`
-2. Check API status: `gcloud services list --enabled | grep texttospeech`
-3. Re-authenticate: `gcloud auth application-default login`
-4. Verify project: `gcloud config get-value project`
-
-</details>
-
-<details>
-<summary><strong>📏 Text Length Issues</strong></summary>
-
-**Error:** `Text too long: X bytes (max 5,000)`
-
-**Solutions:**
-1. Split large documents into sections
-2. Use preprocessing to reduce content
-3. Consider batch processing for multiple files
-
-</details>
-
-<details>
-<summary><strong>⚡ Performance Issues</strong></summary>
-
-**Slow conversion times:**
-1. Check internet connection stability
-2. Verify Google Cloud region settings
-3. Monitor API quota usage
-4. Consider regional API endpoints
-
-</details>
-
-## 🔮 Roadmap & Future Enhancements
-
-### 🎯 Version 2.0 (Q2 2025)
-- [ ] **Batch Processing** - Multiple file conversion with queue management
-- [ ] **SSML Support** - Advanced speech markup for fine-tuned control
-- [ ] **Voice Cloning** - Custom voice training with Google Cloud
-- [ ] **Real-time Streaming** - WebSocket-based live audio generation
-
-### 🌟 Version 3.0 (Q4 2025)
-- [ ] **Web Application** - Browser-based version using same API
-- [ ] **Mobile Apps** - React Native iOS/Android applications
-- [ ] **Plugin System** - Extensions for popular editors (VSCode, Obsidian)
-- [ ] **Analytics Dashboard** - Usage statistics and performance metrics
-
-### 🚀 Advanced Features
-- [ ] **Multi-language Detection** - Automatic language identification
-- [ ] **Audio Post-processing** - Speed, pitch, and EQ controls
-- [ ] **Cloud Storage Integration** - Direct upload to Google Drive, Dropbox
-- [ ] **Collaboration Features** - Shared workspaces and team management
-
-## 🏆 Technical Achievements
-
-This project demonstrates expertise in numerous areas:
-
-### **Frontend Development**
-- Modern React patterns with TypeScript
-- Component composition and reusability
-- State management and side effects
-- Responsive design and accessibility
-- Custom animation and micro-interactions
-
-### **Backend Development**
-- RESTful API design with OpenAPI specification
-- Async programming and performance optimization
-- Database modeling and ORM usage
-- Authentication and authorization
-- Error handling and logging
-
-### **Desktop Application Development**
-- Cross-platform native application development
-- Inter-process communication (IPC)
-- File system integration
-- System integration (file dialogs, OS commands)
+### **Desktop Development**
+- 🦀 Rust for system-level performance
+- 🖥️ Cross-platform native applications
+- 🔌 IPC communication patterns
+- 📁 Native file system integration
+- 🎯 OS-specific optimizations
 
 ### **DevOps & Tooling**
-- Modern Python packaging with uv
-- Multi-language build systems
-- Testing strategies and coverage
-- Code quality tools and pre-commit hooks
-- CI/CD pipeline design
+- 🐳 Containerization with Docker
+- 🔧 Modern build tools (uv, Vite, Cargo)
+- 🧪 CI/CD pipeline design
+- 📊 Monitoring and observability
+- 🚀 Production deployment strategies
 
 ### **Cloud Integration**
-- Google Cloud Platform services
-- API client development and authentication
-- Rate limiting and retry strategies
-- Error handling for external services
+- ☁️ Google Cloud Platform expertise
+- 🔐 Secure authentication flows
+- 📈 API rate limiting and quotas
+- 🔄 Retry strategies and resilience
+- 💰 Cost optimization techniques
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+---
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+We welcome contributions! See our [Contributing Guide](CONTRIBUTING.md) for details.
 
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/amazing-feature`
-3. Make your changes and add tests
-4. Run the test suite: `uv run pytest`
-5. Submit a pull request
+```bash
+# 1. Fork the repository
+# 2. Create your feature branch
+git checkout -b feature/amazing-feature
 
-## 📞 Support & Contact
+# 3. Make your changes and test
+uv run pytest
 
-- 🐛 **Bug Reports:** [GitHub Issues](https://github.com/Abdulrahman-Elsmmany/KIWI-/issues)
-- 💡 **Feature Requests:** [GitHub Discussions](https://github.com/Abdulrahman-Elsmmany/KIWI-/discussions)
-- 📖 **Documentation:** [Wiki](https://github.com/Abdulrahman-Elsmmany/KIWI-/README.md)
+# 4. Commit with conventional commits
+git commit -m "feat: add amazing feature"
 
+# 5. Push and create a Pull Request
+git push origin feature/amazing-feature
+```
 
-## 🙏 Acknowledgments
+---
 
-- **Google Cloud** for providing world-class TTS services
-- **Tauri Team** for the excellent desktop application framework
-- **FastAPI Community** for the modern Python web framework
-- **shadcn** for the beautiful UI component library
+## 📞 Support & Community
+
+<div align="center">
+
+### 🌟 **Get Help & Connect**
+
+[![Issues](https://img.shields.io/badge/🐛-Report%20Issues-FF6B6B?style=for-the-badge)](https://github.com/Abdulrahman-Elsmmany/kiwi/issues)
+[![Discussions](https://img.shields.io/badge/💬-Join%20Discussion-4ECDC4?style=for-the-badge)](https://github.com/Abdulrahman-Elsmmany/kiwi/discussions)
+[![Documentation](https://img.shields.io/badge/📖-Documentation-45B7D1?style=for-the-badge)](https://github.com/Abdulrahman-Elsmmany/kiwi/wiki)
+
+### 🎤 **Share Your Creations**
+Show us what you've created with KIWI TTS!
+[![Showcase](https://img.shields.io/badge/🎵-Community%20Showcase-FF69B4?style=for-the-badge)](https://github.com/Abdulrahman-Elsmmany/kiwi/discussions/categories/showcase)
+
+</div>
+
+---
+
+## 📄 License & Attribution
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+**Acknowledgments:**
+- 🎤 **Google Cloud** for premium Chirp 3 HD voices
+- 🖥️ **Tauri Team** for the amazing desktop framework
+- ⚡ **FastAPI** for the modern Python web framework
+- 🎨 **shadcn/ui** for beautiful React components
+- 🚀 **uv** for ultrafast Python package management
 
 ---
 
 <div align="center">
 
-**🎵 Built with passion and cutting-edge technology**
+### 🥝 **KIWI TTS**
 
-*Showcasing modern software engineering practices and enterprise-grade architecture*
+*Transform Text into Beautiful Speech*
 
-[![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![TypeScript](https://img.shields.io/badge/typescript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org)
-[![Rust](https://img.shields.io/badge/rust-000000?style=for-the-badge&logo=rust&logoColor=white)](https://rust-lang.org)
-[![React](https://img.shields.io/badge/react-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org)
-[![Tauri](https://img.shields.io/badge/tauri-24C8D8?style=for-the-badge&logo=tauri&logoColor=white)](https://tauri.app)
-[![FastAPI](https://img.shields.io/badge/fastapi-109989?style=for-the-badge&logo=FASTAPI&logoColor=white)](https://fastapi.tiangolo.com)
+**Created with ❤️ by [Abdulrahman Elsmmany](https://github.com/Abdulrahman-Elsmmany)**
+
+[![GitHub](https://img.shields.io/badge/GitHub-Abdulrahman--Elsmmany-181717?style=for-the-badge&logo=github)](https://github.com/Abdulrahman-Elsmmany)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdulrahman-elsmmany)
+
+---
+
+**⭐ Star this repository if KIWI TTS helps you create amazing audio content!**
+
+*Let's transform text into speech together* 🚀
+
+### 🎤📝🎵 *Premium Voices • Beautiful Interface • Professional Quality*
 
 </div>
